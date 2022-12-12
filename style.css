@@ -1,0 +1,421 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+nav{
+    display: flex;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100;
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 108vh;
+    font-size: 1.2em;
+    line-height: 1;
+    text-align: center;
+}
+.dropdown{
+    color: rgb(255, 224, 224);
+    background-color:#c92d2d ;
+    border: 1px solid rgb(95, 115, 243);
+    border-radius: 5px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+.button{
+    color: rgb(255, 224, 224);
+    background-color:#c92d2d ;
+    border: 1px solid rgb(95, 115, 243);
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.logo{
+    color:red;
+    flex-basis: 80%;
+    font-size: 65px;
+    margin-left: -190px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-shadow: none;
+    font-family: sans-serif;
+    text-shadow: 1.5px 1.5px black;
+}
+
+span{
+    color:rgb(18, 174, 236);
+    font-style: bold;
+}   
+
+.menu{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding-top: 12px;
+    padding-right: 14%;
+    padding-left: 14%;
+}
+
+ul{ 
+    margin-top: 70px;
+    margin-bottom: 150px; 
+    margin-right: 170px;
+    text-align: center;
+    justify-content: space-between; 
+   
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 190%;
+    font-family:sans-serif;
+    color:white;
+}
+
+nav ul li a:hover{
+    color:red;
+    transition: 0.4s;
+}
+
+.KE{
+   background-color: black;
+   width: 220px;
+   border: 2px solid skyblue;
+   padding: 50px;
+   margin: 20px;
+   border: 1px solid;
+   padding: 15px;
+   box-shadow: 3px 7px skyblue;
+   margin-bottom:420px;
+}
+
+h2{
+    padding-bottom: 5px;
+    font-family: cursive;
+    color: white;
+    margin-top: 10px;
+
+}
+p{
+    color: white;
+    padding: 10px;
+    margin-bottom: 120px;
+    margin-top: 60px;
+}
+
+.KT{
+   background-color: black;
+   width: 220px;
+   border: 2px solid orangered;
+   padding: 50px;
+   margin-right: 20px;
+   margin-top: -430px;
+   border: 1px solid ;
+   padding: 10px;
+   box-shadow: 3px 7px orangered;
+  }
+
+h2{
+     padding-bottom: 5px;
+     font-family: cursive;
+     color: white;
+     margin-top: 10px;
+}
+
+p{
+    color: white;
+    padding: 10px;
+    margin-top: 120px;
+}
+
+.bs{
+    background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 109vh;
+}
+.bs img{
+    border-image: 2px solid white;
+    width: 480px;
+    height: 260px;
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 7px skyblue;
+}
+
+.bs h3{
+    font-size: 50px;
+    color: white;
+    border: 2px solid red;
+    border-radius: 340px;
+    background: black;
+}
+
+.bs  p{
+     color: white;
+     margin-top: 10px;
+     padding: 10px;
+     background-color: black;
+     width: 340px;
+     border: 2px solid orangered;
+     padding: 50,30px;
+     font-family: cursive;
+ }
+
+ .coc2{
+    background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 108vh;
+}
+
+.coc2 img{
+    border-image: 2px solid white;
+    width: 480px;
+    height: 260px;
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 7px skyblue;
+}
+
+.coc2 h3{
+    font-size: 50px;
+    color: white;
+    border: 2px solid red;
+    border-radius: 340px;
+    background: black;
+}
+
+.coc2  p{
+     color: white;
+     margin-top: 10px;
+     padding: 10px;
+     background-color: black;
+     width: 340px;
+     border: 2px solid orangered;
+     padding: 50,30px;
+     font-family: cursive;
+}
+
+
+.bgmi3{
+   background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 108vh;
+}
+
+.bgmi3 img{
+    border-image: 2px solid white;
+    width: 480px;
+    height: 220px;
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 7px skyblue;
+}
+
+.bgmi3 h3{
+    font-size: 50px;
+    color: white;
+    border: 2px solid red;
+    border-radius: 340px;
+    background: black;
+}
+
+.bgmi3  p{
+     color: white;
+     margin-top: 10px;
+     padding: 10px;
+     background-color: black;
+     width: 340px;
+     border: 2px solid orangered;
+     padding: 50,30px;
+     font-family: cursive;
+}
+
+.cod4{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.cod4 img{
+    border-image: 2px solid white;
+    width: 480px;
+    height: 260px;
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 7px skyblue;
+}
+
+.cod4 h3{
+    font-size: 50px;
+    color: white;
+    border: 2px solid red;
+    border-radius: 340px;
+    background: black;
+}
+
+.cod4  p{
+     color: white;
+     margin-top: 10px;
+     padding: 10px;
+     background-color: black;
+     width: 340px;
+     border: 2px solid orangered;
+     font-family: cursive;
+}
+
+#picutre{
+    margin: 340px;
+    padding: 160px;     
+    border: 3px solid;
+    padding: 10px;
+    box-shadow: 7px 10px 15px red;
+
+}
+
+#pic{
+    border: 3px solid;
+    padding: 1px;
+    box-shadow: 5px 7px 10px red;
+    margin-bottom: 10px;
+    background-color: burlywood;
+}
+
+
+.div gallery {
+  margin: 5px;
+  border: 3px solid black;
+  float: left;
+  width: 180px; 
+}
+
+.div gallery:hover {
+  border: 2px solid whitesmoke;
+}
+
+.div gallery img {
+  max-width: 100%;
+  height:auto;
+}
+
+.nik {
+  padding: 10px;
+  margin-left: 280px;
+  margin-right: 280px;
+  text-align: center;
+  color: white;
+  background-color: lightcoral;
+}
+
+.contact{
+    background: skyblue;
+    max-width: 900px;
+    border-radius: 30px;
+    margin: auto;
+    line-height: 30px;
+    font-size: 18px;    
+}
+
+.contact h2{
+    font-family: fantasy;
+    font-display: block;
+}
+
+.contact p{
+    color: red;
+    font-size: 20px;
+}
+
+
+#RF{
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: black;
+    margin-bottom: 10px;
+    border: 2px solid;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    box-shadow: 5px 10px 15px palevioletred;
+}
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: indianred;
+  color: white;
+  min-width: 50px;
+  text-align: right;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid darkred;
+}
+
+.btn {
+  background-color: indianred;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 10;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
